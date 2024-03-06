@@ -54,7 +54,7 @@ Using different Token Extractors per Authenticator
 --------------------------------------------------
 
 Token extractors are set up in the main configuration of this bundle
-(see :doc:`configuration reference </1-configuration-reference>`).
+(see `Configuration reference <./1-configuration-reference.rst>`__).
 If your application contains multiple firewalls with different security
 contexts, you may want to configure the different token extractors which
 should be used on each firewall respectively. This can be done by having

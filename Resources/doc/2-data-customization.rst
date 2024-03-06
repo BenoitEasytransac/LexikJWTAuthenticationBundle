@@ -113,7 +113,7 @@ Example: Override token expiration date calculation to be more flexible
 Using a custom payload at JWT creation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you :doc:`create JWT tokens programmatically </7-manual-token-creation>`,
+If you `create JWT tokens programmatically <./7-manual-token-creation.rst>`__,
 you can add custom data to the JWT using the method
 ``createFromPayload(UserInterface $user, array $payload)``
 
@@ -165,7 +165,7 @@ Example: Check client ip the decoded payload (from example 1)
         }
     }
 
-Example: Add additional data to payload - to get it in your :doc:`custom UserProvider </8-jwt-user-provider>`
+Example: Add additional data to payload - to get it in your `custom UserProvider <./8-jwt-user-provider.rst>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: php

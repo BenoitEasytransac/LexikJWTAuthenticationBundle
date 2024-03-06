@@ -102,7 +102,7 @@ which is based on the great
 library.
 
 To create your own encoder service, see the
-:doc:`JWT encoder service customization chapter </5-encoder-service>`.
+`JWT encoder service customization chapter <./5-encoder-service.rst>`__.
 
 signature_algorithm
 ...................
@@ -221,11 +221,11 @@ Authenticator
 .............
 
 For more details about using custom authenticator in your application,
-see :doc:`Extending JWT Authenticator </6-extending-jwt-authenticator>`.
+see `Extending JWT Authenticator chapter <./6-extending-jwt-authenticator.rst>`__.
 
 Database-less User Provider
 ...........................
 
 For a database-less authentication (i.e. trusting into the JWT data
 instead of reloading the user from the database), see
-:doc:`"A database less user provider" </8-jwt-user-provider>`.
+`"A database less user provider" <./8-jwt-user-provider.rst>`__.

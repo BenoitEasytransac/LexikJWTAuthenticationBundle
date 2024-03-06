@@ -41,7 +41,7 @@ Generate the SSL keys
     JSON Web Keys (``JWK``) and JSON Web Keysets (``JWKSet``) instead of
     PEM encoded keys.
 
-    Please refer to the dedicated page :doc:`Web-Token feature <10-web-token>` for
+    Please refer to the dedicated page `Web-Token feature <./10-web-token.rst>`__ for
     more information.
 
 .. code-block:: terminal
@@ -185,14 +185,13 @@ an authorization header or as a query parameter.
 By default only the authorization header mode is enabled :
 ``Authorization: Bearer {token}``
 
-See the :doc:`configuration reference </1-configuration-reference>` document
+See the `configuration reference <./1-configuration-reference.rst>`__ document
 to enable query string parameter mode or change the header value prefix.
 
 Examples
 ~~~~~~~~
 
-See :doc:`Functionally testing a JWT protected
-api </3-functional-testing>` document or the sandbox application
+See `Functionally testing a JWT protected <./3-functional-testing.rst>`__ document or the sandbox application
 `Symfony4 <https://github.com/chalasr/lexik-jwt-authentication-sandbox>`__)
 for a fully working example.
 
@@ -212,8 +211,7 @@ case you can check
 Working with CORS requests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is more of a Symfony related topic, but see :doc:`Working with CORS requests </4-cors-requests>`
-document to get a quick explanation on handling CORS requests.
+This is more of a Symfony related topic, but see `Working with CORS requests <./4-cors-requests.rst>`__ document to get a quick explanation on handling CORS requests.
 
 Impersonation
 ~~~~~~~~~~~~~
@@ -243,15 +241,15 @@ Further documentation
 
 The following documents are available:
 
--  :doc:`Configuration reference </1-configuration-reference>`
--  :doc:`Data customization and validation </2-data-customization>`
--  :doc:`Functionally testing a JWT protected api </3-functional-testing>`
--  :doc:`Working with CORS requests </4-cors-requests>`
--  :doc:`JWT encoder service customization </5-encoder-service>`
--  :doc:`Extending Authenticator </6-extending-jwt-authenticator>`
--  :doc:`Creating JWT tokens programmatically </7-manual-token-creation>`
--  :doc:`A database-less user provider </8-jwt-user-provider>`
--  :doc:`Accessing the authenticated JWT token </9-access-authenticated-jwt-token>`
--  :doc:`Web-Token feature </10-web-token>`
+- `Configuration reference <./1-configuration-reference.rst>`__
+- `Data customization and validation <./2-data-customization.rst>`__
+- `Functionally testing a JWT protected api <./3-functional-testing.rst>`__
+- `Working with CORS requests <./4-cors-requests.rst>`__
+- `JWT encoder service customization <./5-encoder-service.rst>`__
+- `Extending Authenticator <./6-extending-jwt-authenticator.rst>`__
+- `Creating JWT tokens programmatically <./7-manual-token-creation.rst>`__
+- `A database-less user provider <./8-jwt-user-provider.rst>`__
+- `Accessing the authenticated JWT token <./9-access-authenticated-jwt-token.rst>`__
+- `Web-Token feature <./10-web-token.rst>`__
 
 .. _Web-Token: https://web-token.spomky-labs.com/

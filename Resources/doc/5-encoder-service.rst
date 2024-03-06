@@ -80,5 +80,5 @@ Use it as encoder service
     that represents the corresponding configuration option by injecting
     this as argument of the encoder's service.
 
-    See the :doc:`configuration reference <1-configuration-reference>` for
+    See the `configuration reference <./1-configuration-reference.rst>`__ for
     more information.
